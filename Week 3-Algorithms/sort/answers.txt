@@ -1,0 +1,15 @@
+sort1 uses:Bubble Sort
+
+How do you know?:The program repeatedly compares adjacent elements and swaps them if they are out of order. This results in larger elements "bubbling up" to the correct position with each pass. When tested with nearly sorted data, the program makes fewer swaps but still iterates over the array multiple times, which is characteristic of bubble sort.
+
+
+sort2 uses:Merge Sort
+
+How do you know?:The program divides the array into halves recursively, sorts each half, and then merges them back together. This is clear from the program's performance, as it operates significantly faster on larger input sizes compared to the other two algorithms, consistent with merge sort's O(n log n) complexity.
+
+
+sort3 uses:Selection Sort
+
+
+How do you know?:The program iteratively selects the smallest element from the unsorted portion of the array and places it at the beginning. This is evident because the number of comparisons remains constant regardless of whether the input is already sorted or reversed. Additionally, there are fewer swaps compared to bubble sort.
+
